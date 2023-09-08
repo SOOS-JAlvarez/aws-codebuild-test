@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aws_codebuild_test_1694179911229-pr-trigger-input-set
+  identifier: Build_aws_codebuild_test_1694179911229prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_aws_codebuild_test_1694179911229
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
